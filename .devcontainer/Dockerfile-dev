@@ -8,5 +8,5 @@ USER condauser
 RUN conda create -n pp-env -c conda-forge geopandas jupyterlab seaborn ipykernel
 SHELL ["bash", "-lc"]
 RUN conda activate pp-env
-
+RUN pip install geovoronoi
 
