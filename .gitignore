@@ -1,4 +1,8 @@
 .ipynb_checkpoints
 .DS_Store
-data
 *.pyc
+!data/
+!data/processed/
+data/processed/*
+data/raw/*
+!data/processed/efdi_variables_for_ppfi.csv
