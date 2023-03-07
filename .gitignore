@@ -6,3 +6,4 @@
 data/processed/*
 data/raw/*
 !data/processed/efdi_variables_for_ppfi.csv
+data/*
